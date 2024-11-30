@@ -54,6 +54,22 @@ We encourage you to be creative! Feel free to use any libraries, tools, services
     pip install -r requirements.txt
     ```
 
+3. Install Pytesseract OCR
+    - Windows
+        - Install the binary
+        from the github page `https://github.com/UB-Mannheim/tesseract/wiki`
+        - Add the binary to your PATH
+
+    - MacOS
+    ```shell
+    brew install tesseract
+    ```
+
+    - Linux
+    ```shell
+    sudo apt install tesseract-ocr
+    ```
+
 3. Run the Flask app:
     ```shell
     python -m src.app
@@ -68,9 +84,3 @@ We encourage you to be creative! Feel free to use any libraries, tools, services
    ```shell
     pytest
     ```
-
-## Submission
-
-Please aim to spend 3 hours on this challenge.
-
-Once completed, submit your solution by sharing a link to your forked repository. Please also provide a brief write-up of your ideas, approach, and any instructions needed to run your solution. 
