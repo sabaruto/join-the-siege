@@ -5,16 +5,16 @@ from src.classifier import (
 import pandas as pd
 
 
-class_data = ("KeyWords", "RandomForest")
+class_data = ("TokenFrequency", "RandomForest")
 class_model_data = (
-    ["KeyWords", "src/models/KeyWords/test_model.jsonl"],
+    ["TokenFrequency", "src/models/TokenFrequency/test_model.jsonl"],
     ["RandomForest", ""],
 )
 class_training_data = (["RandomForest", pd.DataFrame([])],)
 class_model_input_output_data = (
     [
-        "KeyWords",
-        "src/models/KeyWords/test_model.jsonl",
+        "TokenFrequency",
+        "src/models/TokenFrequency/test_model.jsonl",
         "DRIVER LICENSE License No. P99999999 Expires 00-00-00",
         "drivers_license",
     ],
