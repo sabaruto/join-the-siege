@@ -1,0 +1,3 @@
+{"category": "drivers_license", "tokens": ["drivers", "license", "expires", "sex", "state"]}
+{"category": "bank_statement", "tokens": ["bank", "statement", "deposit", "transfer", "purchase"]}
+{"category": "invoice", "tokens": ["invoice", "price", "quantity", "total", "tax", "customer", "due"]}

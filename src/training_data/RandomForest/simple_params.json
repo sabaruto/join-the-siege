@@ -1,0 +1,10 @@
+{
+    "xgboost_params": {
+        "objective": "multi:softprob",
+        "eval_metric": "mlogloss",
+        "max_depth": 5,
+        "subsample": 0.8,
+        "colsample_bytree": 0.8
+    },
+    "num_boost_rounds": 1000
+}
